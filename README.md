@@ -1,5 +1,58 @@
-<header>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>滑雪趣</title>
+    <meta name="keywords" content="滑雪、新手、初級、中級、高級，滑雪體驗，零基礎，溫泉，夜間滑雪">
+  </head>
+  <body>
+  <header>
+  <h1>滑雪趣</h1>
+    <nav class="navbar">
+    <ul >
+      <li><a href="#schedule">行程介紹</a></li>
+      <li><a href="#class">課程安排</a></li>
+      <li><a href="#coach">教練介紹</a></li>
+      <li><a href="#accommodation">住宿設施</a></li>
+      <li><a href="#q&amp;a">Q&A</a></li>
+    </ul>
+    </nav>
+  </header>
+  
+    <main>
+      <img>
+      <br>
+      <section>
+      <p>人生待完成清單｜滑雪，現在啟程！</p>
+      <p>絕美雪場風光，宛如電影場景<br>
+      精緻配套，從裝備到住宿都安排妥當，只需盡情享受滑雪樂趣</p> 
+      </section>
+     
+    <h2 id="schedule">行程介紹</h2>
+    <p>可以滑滿三天的行程<br>
+       兩日八小時滑雪教練課程<br>
+       1日雪場自由時間<br>
+       台灣⇔日本來回機票<br>
+       機場到雪場的私人包車<br>
+       雪場三天&東京1日住宿<br>
+       包含雪票、雪板、雪鞋、雪鏡、安全帽</p>
+    
+    <section id="day1">
+    <h3>DAY1</h3>
+    <p>台北 - 東京成田機場<br>
+    包車前往越後湯澤雪場<br>
+    飯店入住<br>
+    滑雪裝備準備<br>
+    自由時間</p>
+    </section>
 
+
+   <h2 id="class">課程安排</h2>
+   <h2 id="coach">教練介紹</h2>
+   <h2 id="accommodation">住宿設施</h2>
+   <h2 id="q&amp;a">Q&A</h2>
+   </main>
+  </body>
+  </html>
 <!--
   <<< Author notes: Course header >>>
   Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
