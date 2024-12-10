@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>滑雪趣</title>
-    <meta name="keywords" content="滑雪、新手、初級、中級、高級，滑雪體驗，零基礎，溫泉，夜間滑雪">
+    <meta name="keywords" content="小班制、新手、初階、中階、高階，滑雪體驗，零基礎，溫泉，夜間滑雪">
   </head>
   <body>
   <header>
@@ -10,7 +10,7 @@
     <nav class="navbar">
     <ul >
       <li><a href="#schedule">行程介紹</a></li>
-      <li><a href="#class">課程安排</a></li>
+      <li><a href="#class">報名梯次與價格</a></li>
       <li><a href="#coach">教練介紹</a></li>
       <li><a href="#accommodation">住宿設施</a></li>
       <li><a href="#q&amp;a">Q&A</a></li>
@@ -32,21 +32,45 @@
        兩日八小時滑雪教練課程<br>
        1日雪場自由時間<br>
        台灣⇔日本來回機票<br>
-       機場到雪場的私人包車<br>
-       雪場三天&東京1日住宿<br>
+       機場到富良野滑雪渡假村接送<br>
+       雪場四天住宿、早晚餐，午餐自理<br>
        包含雪票、雪板、雪鞋、雪鏡、安全帽</p>
     
-    <section id="day1">
-    <h3>DAY1</h3>
-    <p>台北 - 東京成田機場<br>
-    包車前往越後湯澤雪場<br>
-    飯店入住<br>
-    滑雪裝備準備<br>
+    <section class="card">
+    <h3>Day1</h3>
+    <p>台北-新千歲空港
+    搭乘專用巴士前往富良野滑雪渡假村
+    滑雪裝備準備
     自由時間</p>
+    
+    <h3>Day2</h3>
+    <p>暖身活動
+    適應裝備
+    分組教學(上午、下午各兩小時)：平地步行、平地滑行、平地轉動雪板、體驗滑行、內八字剎車(全制動剎車)
+    自由練習(一小時)</p>
+    
+    <h3>Day3</h3>
+    <p>暖身活動
+    分組教學(上午兩小時)：複習全制動剎車動作，接著轉彎教學
+    分組教學(下午兩小時)：上下纜車
+    自由練習(一小時)</p>
+    
+    <h3>Day4</h3>
+    <p>自由練習</p>
+
+    <h3>Day5</h3>
+    <p>富良野滑雪渡假村-新千歲空港-台北</p>
     </section>
 
+   <h2 id="class">報名梯次與價格</h2>
+   <table>
+    梯次  日期            金額          報名狀態
+    1     12/22-12/26    82,000        已額滿
+    2
+    3
+   </table>
 
-   <h2 id="class">課程安排</h2>
+   
    <h2 id="coach">教練介紹</h2>
    <h2 id="accommodation">住宿設施</h2>
    <h2 id="q&amp;a">Q&A</h2>
