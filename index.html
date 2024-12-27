@@ -6,98 +6,66 @@
 			name="keywords"
 			content="小班制、新手、初階、中階、高階，滑雪體驗，零基礎，溫泉，夜間滑雪"
 		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<header>
-			<h1>滑雪趣</h1>
-			<nav class="navbar">
-				<ul>
-					<li><a href="#schedule">行程介紹</a></li>
-					<li><a href="#class">報名梯次與價格</a></li>
-					<li><a href="#coach">教練介紹</a></li>
-					<li><a href="#accommodation">住宿設施</a></li>
-					<li><a href="#q&amp;a">Q&A</a></li>
-				</ul>
+			<h1>
+				<span class="chinese-title">滑雪趣</span>
+				<span class="english-title">Skiisfun</span>
+			</h1>
+			<nav>
+				<a href="#schedule">行程介紹</a>
+				<a href="#class">報名梯次與價格</a>
+				<a href="#coach">教練介紹</a>
+				<a href="#accommodation">住宿設施</a>
+				<a href="#q-and-a">Q&A</a>
 			</nav>
 		</header>
 
+		<section class="banner">
+			<img
+				src="https://thumb.photo-ac.com/ff/ff9693a054700fefc469ab8ff25958bd_w.jpeg"
+				alt="雪景1"
+				title="雪場1"
+			/>
+		</section>
+
+		<section class="intro">
+			<h3>人生待完成清單｜滑雪，現在啟程！</h3>
+			<p>
+				絕美雪場風光，宛如電影場景<br />
+				從裝備到住宿交通精緻配套，只需盡情享受滑雪樂趣
+			</p>
+		</section>
+
 		<main>
-			<img />
-			<br />
-			<section>
-				<p>人生待完成清單｜滑雪，現在啟程！</p>
+			<section id="schedule">
+				<h3>行程介紹</h3>
 				<p>
-					絕美雪場風光，宛如電影場景<br />
-					精緻配套，從裝備到住宿都安排妥當，只需盡情享受滑雪樂趣
+					可以滑滿三天的行程<br />
+					兩日八小時滑雪教練課程<br />
+					1日雪場自由時間<br />
+					台灣⇔日本來回機票<br />
+					機場到富良野滑雪渡假村接送<br />
+					雪場四天住宿、早晚餐，午餐自理<br />
+					包含雪票、雪板、雪鞋、雪鏡、安全帽
 				</p>
 			</section>
 
-			<h2 id="schedule">行程介紹</h2>
-			<p>
-				可以滑滿三天的行程<br />
-				兩日八小時滑雪教練課程<br />
-				1日雪場自由時間<br />
-				台灣⇔日本來回機票<br />
-				機場到富良野滑雪渡假村接送<br />
-				雪場四天住宿、早晚餐，午餐自理<br />
-				包含雪票、雪板、雪鞋、雪鏡、安全帽
-			</p>
-
-			<section class="card-container">
-				<div class="card">
-					<h3>Day1</h3>
-					<p>
-						台北-新千歲空港<br />
-						搭乘專用巴士前往富良野滑雪渡假村<br />
-						滑雪裝備準備<br />
-						自由時間
-					</p>
-				</div>
-
-				<div class="card">
-					<h3>Day2</h3>
-					<p>
-						暖身活動<br />
-						適應裝備<br />
-						分組教學(上午、下午各兩小時)：<br />
-						平地步行、平地滑行、平地轉動雪板、<br />
-						體驗滑行、內八字剎車(全制動剎車)<br />
-						自由練習(一小時)
-					</p>
-				</div>
-
-				<div class="card">
-					<h3>Day3</h3>
-					<p>
-						暖身活動<br />
-						分組教學(上午兩小時)：<br />
-						複習全制動剎車動作，接著轉彎教學<br />
-						分組教學(下午兩小時)：上下纜車<br />
-						自由練習(一小時)
-					</p>
-				</div>
-
-				<div class="card">
-					<h3>Day4</h3>
-					<p>自由練習</p>
-				</div>
-
-				<div class="card">
-					<h3>Day5</h3>
-					<p>富良野滑雪渡假村-新千歲空港-台北</p>
-				</div>
-			</section>
-
-			<h2 id="class">報名梯次與價格</h2>
-			<table>
+			<section id="class">
+				<h3>報名梯次與價格</h3>
 				<table>
 					<thead>
 						<tr>
-							<th>梯次</th>
-							<th>日期</th>
-							<th>金額</th>
-							<th>報名狀態</th>
+							<th scope="col">梯次</th>
+							<th scope="col">日期</th>
+							<th scope="col">金額</th>
+							<th scope="col">報名狀態</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -121,11 +89,37 @@
 						</tr>
 					</tbody>
 				</table>
-			</table>
+			</section>
 
-			<h2 id="coach">教練介紹</h2>
-			<h2 id="accommodation">住宿設施</h2>
-			<h2 id="q&amp;a">Q&A</h2>
+			<section id="coach">
+				<h3>教練介紹</h3>
+				<div class="card">
+					<h4>Coach1</h4>
+					<p>單板/雙板</p>
+					<p>年資：8年</p>
+					<p>零經驗、初階、中階、親子、高齡</p>
+				</div>
+				<div class="card">
+					<h4>Coach2</h4>
+					<p>單板/雙板</p>
+					<p>年資：12年</p>
+					<p>零經驗、初階、中階、親子、高齡</p>
+				</div>
+			</section>
+
+			<section id="accommodation">
+				<h3>住宿設施</h3>
+				<p>詳細內容待補充。</p>
+			</section>
+
+			<section id="q-and-a">
+				<h3>Q&A</h3>
+				<p>詳細內容待補充。</p>
+			</section>
 		</main>
+
+		<footer>
+			<p>© 2024 Skiisfun Studio. All RIGHTS RESERVED.</p>
+		</footer>
 	</body>
 </html>
